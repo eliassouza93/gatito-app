@@ -1,20 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Servicos from "./src/telas/Sercicos";
+
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Alura</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Servicos />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
